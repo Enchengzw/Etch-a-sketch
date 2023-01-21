@@ -1,0 +1,21 @@
+.gridcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.squareline {
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+}
+
+
+
+.square {
+    background-color: grey;
+    border-radius: 3px;
+    border: 1px solid white;
+    height: 16px;
+    width: 16px;
+}
