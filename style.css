@@ -1,26 +1,39 @@
+body {
+    display: flex;
+}
+
 .gridcontainer {
     display: flex;
     flex-direction: column;
     background-color: azure;
     justify-content: center;
-    align-items: center;
-    height: 1000px;
-    width: 1000px;
+    height: 500px;
+    width: 500px;
     margin: auto;
+    flex: 0 0 auto;
+}
+
+.button {
+    display: block;
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
 }
 
 .squareline {
+    flex: 1;
     display: flex;
     flex-direction: row;
-    background-color: burlywood;
 }
 
+.generate {
 
+}
 
 .square {
+    flex: 1;
+    display: flex;
     background-color: grey;
     border-radius: 3px;
     border: 1px solid white;
-    height: 50px;
-    width: 50px;
 }
