@@ -13,13 +13,6 @@ body {
     flex: 0 0 auto;
 }
 
-.button {
-    display: block;
-    background-color: yellow;
-    height: 30px;
-    width: 30px;
-}
-
 .squareline {
     flex: 1;
     display: flex;
@@ -27,7 +20,9 @@ body {
 }
 
 .generate {
-
+    background-color: yellow;
+    height: 30px;
+    width: auto;
 }
 
 .square {
